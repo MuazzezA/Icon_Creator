@@ -34,7 +34,6 @@ class _HomePageState extends State<HomePage> {
                   sourceForImage(context, 0);
                 },
                 icon: const Icon(Icons.image),
-                label: const Text("Galeri"),
                 label: const Text("Gallery"),
               ),
               TextButton.icon(
@@ -42,7 +41,6 @@ class _HomePageState extends State<HomePage> {
                   sourceForImage(context, 1);
                 },
                 icon: const Icon(Icons.camera),
-                label: const Text("Kamera"),
                 label: const Text("Camera"),
               ),
             ],
